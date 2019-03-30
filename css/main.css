@@ -735,6 +735,19 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 		padding: 0 30px;
 		box-sizing: border-box;
 	}
+	/* GRID */
+	#cxl-ss-masthead h1 {
+		margin: 15px 0;
+		font-size: 32px;
+	}
+	#cxl-ss-masthead p {
+		width: 100%;
+	}
+	#cxl-ss-cases ul {
+		grid-template-columns: auto;
+	}
+
+	/* SOLO */
 	#cxl-solo-masthead-copy,
 	#cxl-solo-masthead-3dphoto {
 		width: 100%;
