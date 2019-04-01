@@ -723,7 +723,7 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 	}
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 801px) {
 	#cxl-ss-responsive,
 	#cxl-solo-responsive,
 	#cxl-solo-psr,
