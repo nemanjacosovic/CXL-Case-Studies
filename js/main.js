@@ -23,5 +23,3 @@ btnMenu.addEventListener('click', () => {
         ccl.add('header-visible')
     }
 })
-
-console.log('loaded')
