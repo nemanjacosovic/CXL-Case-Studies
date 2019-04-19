@@ -74,7 +74,8 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 							#cxl-ss-cases span img,
 							#cxl-solo-scs span img {
 								/* When images are @2x use 50% */
-								width: 50%;
+								height: 28px;
+								width: auto;
 							}
 					#cxl-ss-cases h3,
 					#cxl-solo-scs h3 {
@@ -179,7 +180,7 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 					padding: 0;
 					font-size: 50px;
 					font-weight: 900;
-					line-height: 52px;
+					line-height: 1.2em; /* 52px */
 					margin: 31px 0 0 0;
 					font-style: normal;
 					font-family: Roboto;
@@ -655,41 +656,40 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 							}
 								#cxl-solo-cxlagency .brandname img {
 									width: auto;
-									height: 36px;
 									display: inline-block;
 								}
 							#cxl-solo-cxlagency .brandname h4 {
-								font-family: Roboto;
-								font-style: normal;
-								font-weight: 500;
-								font-size: 16px;
 								color: #5B5B5B;
+								font-size: 16px;
+								font-weight: 500;
 								line-height: 17px;
 								text-align: right;
+								font-style: normal;
 								margin: 18px 0 0 0;
+								font-family: Roboto;
 								letter-spacing: -0.128px;
 							}
 								#cxl-solo-cxlagency .brandname small {
 									display: block;
-									font-family: Roboto;
-									font-style: normal;
+									color: #5B5B5B;
+									font-size: 16px;
 									font-weight: 500;
 									margin: 2px 0 0 0;
-									font-size: 16px;
 									line-height: 17px;
 									text-align: right;
+									font-style: normal;
+									font-family: Roboto;
 									letter-spacing: -0.128px;
-									color: #5B5B5B;
 								}
 					#cxl-solo-cxlagency p {
 						margin: 0;
-						padding: 0 0 0 45px;
-						font-family: Libre Baskerville;
-						font-style: normal;
-						font-weight: normal;
+						color: #1A1A1A;
 						font-size: 18px;
 						line-height: 31px;
-						color: #1A1A1A;
+						font-style: normal;
+						font-weight: normal;
+						padding: 0 0 0 45px;
+						font-family: Libre Baskerville;
 					}
 				#cxl-solo-cxlagency-cta {
 					padding: 35px 0;
@@ -699,16 +699,16 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 					background: rgba(248, 248, 248, 1);
 				}
 					#cxl-solo-cxlagency-cta a {
-						font-family: Roboto;
-						font-style: normal;
-						font-weight: 500;
-						font-size: 18px;
-						padding: 15px 33px;
 						color: #ffffff;
+						font-size: 18px;
+						font-weight: 500;
 						line-height: 21px;
+						font-style: normal;
+						padding: 15px 33px;
 						border-radius: 4px;
-						text-decoration: none;
 						background: #000000;
+						font-family: Roboto;
+						text-decoration: none;
 						display: inline-block;
 						transition: background 100ms ease-in-out;
 					}
@@ -720,15 +720,15 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 			margin: 95px 0 0 0;
 		}
 			#cxl-solo-scs h4 {
-				font-family: Roboto;
-				font-style: normal;
-				font-weight: 900;
+				margin: 0;
+				color: #1A1A1A;
 				font-size: 25px;
+				font-weight: 900;
 				line-height: 27px;
 				text-align: center;
-				margin: 0;
+				font-style: normal;
+				font-family: Roboto;
 				padding: 0 0 75px 0;
-				color: #1A1A1A;
 			}
 /* CXL SOLO code */
 
